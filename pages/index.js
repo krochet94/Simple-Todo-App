@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import { doc, getDoc, writeBatch, deleteField } from "firebase/firestore";
@@ -61,7 +60,7 @@ const useStyles = createStyles((theme, _params, getRef) => ({
     marginRight: 'auto',
     marginTop: 20,
     marginBottom: 10,
-    padding: 10,
+    padding: 20,
     height: '100%',
     backgroundColor: '#F4F4F4'
   },

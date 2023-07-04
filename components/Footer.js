@@ -7,10 +7,11 @@ const Footer = ({classes}) => {
     const date = new Date();
     return (
       <Flex   
-      justify="space-between"
-      direction="row"
-      wrap="wrap"
-      className={classes.marginElements}
+        justify="space-between"
+        direction="row"
+        wrap="wrap"
+        className={classes.marginElements}
+        style={{ marginTop: 50, padding: 20 }}
       >
         <h5>Created by: <strong>Carl Aragoncillo</strong></h5>
         <ul className={classes.socialIcons}>
